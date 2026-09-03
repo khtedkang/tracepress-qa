@@ -1,0 +1,5 @@
+id,claim,status,source_ids,locators,verification_passed,verification_result
+C-001,The fictional pilot catalog contains twelve entries.,verified-fixture,SRC-001,data rows 1–12,true,Expected 12 data row(s); found 12.
+C-002,Every catalog entry has a declared review status.,verified-fixture,SRC-001,review_status column,true,Column 'review_status' has 0 empty value(s).
+C-003,Six fictional entries are marked ready for editorial review.,verified-fixture,SRC-001,review_status = ready,true,Expected 6 row(s) where review_status='ready'; found 6.
+C-004,The demonstration validates declared link fixtures without making live network requests.,editorial-context,SRC-002,method rule 4,true,Source-linked editorial claim; no executable rule declared.

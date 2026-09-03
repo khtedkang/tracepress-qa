@@ -1,0 +1,380 @@
+{
+  "checks": [
+    {
+      "code": "WORKSPACE.INPUT_DIR",
+      "message": "Input directory exists.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SCHEMA.SOURCES_JSON",
+      "message": "sources.json is valid JSON object data.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SCHEMA.CLAIMS_JSON",
+      "message": "claims.json is valid JSON object data.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SCHEMA.LINKS_JSON",
+      "message": "links.json is valid JSON object data.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SCHEMA.RELEASE_JSON",
+      "message": "release.json is valid JSON object data.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "MANUSCRIPT.READABLE",
+      "message": "Manuscript is readable UTF-8 text.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SCHEMA.SOURCES_V1",
+      "message": "Source register uses schema version 1.0 and contains a records array.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SOURCE.REQUIRED_FIELDS",
+      "context": {
+        "source_id": "SRC-001"
+      },
+      "message": "SRC-001 includes all required fields.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SOURCE.ID_FORMAT",
+      "message": "SRC-001 uses the SRC-000 identifier pattern.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SOURCE.ID_UNIQUE",
+      "message": "SRC-001 is unique.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SOURCE.PATH_CONTAINED",
+      "message": "SRC-001 path stays inside the input directory.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SOURCE.FILE_EXISTS",
+      "message": "SRC-001 resolves to a local evidence file.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SOURCE.PUBLIC_HANDLING",
+      "message": "SRC-001 is classified for public demonstration use.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SOURCE.REQUIRED_FIELDS",
+      "context": {
+        "source_id": "SRC-002"
+      },
+      "message": "SRC-002 includes all required fields.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SOURCE.ID_FORMAT",
+      "message": "SRC-002 uses the SRC-000 identifier pattern.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SOURCE.ID_UNIQUE",
+      "message": "SRC-002 is unique.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SOURCE.PATH_CONTAINED",
+      "message": "SRC-002 path stays inside the input directory.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SOURCE.FILE_EXISTS",
+      "message": "SRC-002 resolves to a local evidence file.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SOURCE.PUBLIC_HANDLING",
+      "message": "SRC-002 is classified for public demonstration use.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SCHEMA.CLAIMS_V1",
+      "message": "Claim register uses schema version 1.0 and contains a claims array.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.REQUIRED_FIELDS",
+      "context": {
+        "claim_id": "C-001"
+      },
+      "message": "C-001 includes all required fields.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.ID_FORMAT",
+      "message": "C-001 uses the C-000 identifier pattern.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.ID_UNIQUE",
+      "message": "C-001 is unique.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.STATUS",
+      "message": "C-001 has an allowed disclosure status.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.EVIDENCE",
+      "message": "C-001 resolves to registered source evidence.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.REPRODUCIBLE",
+      "message": "C-001: Expected 12 data row(s); found 12.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.REQUIRED_FIELDS",
+      "context": {
+        "claim_id": "C-002"
+      },
+      "message": "C-002 includes all required fields.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.ID_FORMAT",
+      "message": "C-002 uses the C-000 identifier pattern.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.ID_UNIQUE",
+      "message": "C-002 is unique.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.STATUS",
+      "message": "C-002 has an allowed disclosure status.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.EVIDENCE",
+      "message": "C-002 resolves to registered source evidence.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.REPRODUCIBLE",
+      "message": "C-002: Column 'review_status' has 0 empty value(s).",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.REQUIRED_FIELDS",
+      "context": {
+        "claim_id": "C-003"
+      },
+      "message": "C-003 includes all required fields.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.ID_FORMAT",
+      "message": "C-003 uses the C-000 identifier pattern.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.ID_UNIQUE",
+      "message": "C-003 is unique.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.STATUS",
+      "message": "C-003 has an allowed disclosure status.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.EVIDENCE",
+      "message": "C-003 resolves to registered source evidence.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.REPRODUCIBLE",
+      "message": "C-003: Expected 6 row(s) where review_status='ready'; found 6.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.REQUIRED_FIELDS",
+      "context": {
+        "claim_id": "C-004"
+      },
+      "message": "C-004 includes all required fields.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.ID_FORMAT",
+      "message": "C-004 uses the C-000 identifier pattern.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.ID_UNIQUE",
+      "message": "C-004 is unique.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.STATUS",
+      "message": "C-004 has an allowed disclosure status.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.EVIDENCE",
+      "message": "C-004 resolves to registered source evidence.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "CLAIM.REPRODUCIBLE",
+      "message": "C-004: Source-linked editorial claim; no executable rule declared.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "MANUSCRIPT.CLAIM_MARKERS_KNOWN",
+      "message": "Every manuscript claim marker resolves to the claim register.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "MANUSCRIPT.CLAIMS_USED",
+      "message": "Every registered claim appears in the manuscript.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "MANUSCRIPT.CLAIMS_PRESENT",
+      "message": "Manuscript includes traceable claim markers.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "MANUSCRIPT.SINGLE_H1",
+      "message": "Manuscript contains 1 level-one heading(s); exactly one is required.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "MANUSCRIPT.REQUIRED_SECTIONS",
+      "message": "All required status, method, findings, and disclosure sections are present.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "MANUSCRIPT.NO_EDITORIAL_TOKENS",
+      "message": "No unresolved editorial tokens remain.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "MANUSCRIPT.DISCLOSURE",
+      "message": "Manuscript explicitly discloses AI assistance and synthetic data.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "SCHEMA.LINKS_V1",
+      "message": "Link registry uses schema version 1.0 and contains a fixtures array.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "LINK.OFFLINE_REGISTERED",
+      "context": {
+        "url": "https://example.com/"
+      },
+      "message": "https://example.com/ has a declared offline fixture.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "LINK.STATUS",
+      "context": {
+        "url": "https://example.com/"
+      },
+      "message": "https://example.com/ fixture has a successful status (200).",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "RELEASE.REQUIRED_FIELDS",
+      "message": "Release policy includes all required fields.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "RELEASE.PUBLIC_SYNTHETIC",
+      "message": "Release is explicitly classified as a public synthetic demonstration.",
+      "severity": "error",
+      "status": "pass"
+    },
+    {
+      "code": "RELEASE.DATE_FORMAT",
+      "message": "Release date uses ISO YYYY-MM-DD format.",
+      "severity": "error",
+      "status": "pass"
+    }
+  ],
+  "generator": "tracepress-qa/0.1.0",
+  "release_id": "tracepress-harbor-notes-0.1.0",
+  "schema_version": "1.0",
+  "summary": {
+    "errors": 0,
+    "passed": 57,
+    "status": "pass",
+    "total": 57,
+    "warnings": 0
+  }
+}

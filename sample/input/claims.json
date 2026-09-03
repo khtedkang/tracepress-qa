@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "claims": [
+    {
+      "id": "C-001",
+      "text": "The fictional pilot catalog contains twelve entries.",
+      "status": "verified-fixture",
+      "evidence": [
+        {
+          "source_id": "SRC-001",
+          "locator": "data rows 1–12"
+        }
+      ],
+      "verification": {
+        "type": "csv_row_count",
+        "source_id": "SRC-001",
+        "expected": 12
+      }
+    },
+    {
+      "id": "C-002",
+      "text": "Every catalog entry has a declared review status.",
+      "status": "verified-fixture",
+      "evidence": [
+        {
+          "source_id": "SRC-001",
+          "locator": "review_status column"
+        }
+      ],
+      "verification": {
+        "type": "csv_nonempty_column",
+        "source_id": "SRC-001",
+        "column": "review_status"
+      }
+    },
+    {
+      "id": "C-003",
+      "text": "Six fictional entries are marked ready for editorial review.",
+      "status": "verified-fixture",
+      "evidence": [
+        {
+          "source_id": "SRC-001",
+          "locator": "review_status = ready"
+        }
+      ],
+      "verification": {
+        "type": "csv_value_count",
+        "source_id": "SRC-001",
+        "column": "review_status",
+        "value": "ready",
+        "expected": 6
+      }
+    },
+    {
+      "id": "C-004",
+      "text": "The demonstration validates declared link fixtures without making live network requests.",
+      "status": "editorial-context",
+      "evidence": [
+        {
+          "source_id": "SRC-002",
+          "locator": "method rule 4"
+        }
+      ]
+    }
+  ]
+}

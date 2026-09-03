@@ -1,0 +1,42 @@
+{
+  "artifacts": [
+    {
+      "bytes": 10054,
+      "path": "qa-report.json",
+      "sha256": "e40b3de9698d517a89629cc5324e4a24fd5e5002ef3f2d3e5e7a91047561e4b9"
+    },
+    {
+      "bytes": 744,
+      "path": "claim-traceability.csv",
+      "sha256": "0abd86f62f90e42d79b4d581e180094ec848379657fb60644d0ca52fde829f77"
+    },
+    {
+      "bytes": 477,
+      "path": "source-register.csv",
+      "sha256": "4930ea5ab2ddd1a4f0d1365acebc689f6bfe8e966969b386c7511f495edeb852"
+    },
+    {
+      "bytes": 7948,
+      "path": "sample-publication.html",
+      "sha256": "555aac2ff2fdd6c61a004a6f484e991edb4b8b18dfbee97e5a64f4b8c07f5017"
+    }
+  ],
+  "generator": "tracepress-qa/0.1.0",
+  "quality_gate": {
+    "errors": 0,
+    "passed": 57,
+    "status": "pass",
+    "total": 57,
+    "warnings": 0
+  },
+  "release": {
+    "ai_disclosure": "Created with AI-assisted coding and synthetic content under human direction and review.",
+    "classification": "public-synthetic",
+    "confidentiality_disclosure": "No confidential, client, partner, company, or proprietary material is included.",
+    "release_date": "2026-09-03",
+    "release_id": "tracepress-harbor-notes-0.1.0",
+    "status": "demonstration",
+    "version": "0.1.0"
+  },
+  "schema_version": "1.0"
+}

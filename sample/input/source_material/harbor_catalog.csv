@@ -1,0 +1,13 @@
+record_id,harbor_zone,material_type,review_status,observation
+HBR-001,North Pier,ceramic,ready,Glazed fragment with invented blue mark
+HBR-002,North Pier,glass,queued,Clear shard with rounded synthetic edge
+HBR-003,East Basin,metal,ready,Stamped token from fictional survey
+HBR-004,East Basin,wood,queued,Sample tag attached to invented timber offcut
+HBR-005,South Quay,textile,ready,Woven strip in synthetic archive sleeve
+HBR-006,South Quay,paper,queued,Facsimile cargo note with no real names
+HBR-007,West Dock,ceramic,ready,Unglazed fragment from fictional grid
+HBR-008,West Dock,glass,queued,Green shard created for demonstration
+HBR-009,North Pier,metal,ready,Corroded washer from mock collection
+HBR-010,East Basin,wood,queued,Numbered sample from invented transect
+HBR-011,South Quay,textile,ready,Rope fiber retained for fictional review
+HBR-012,West Dock,paper,queued,Duplicate form marked as synthetic

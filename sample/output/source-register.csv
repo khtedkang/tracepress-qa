@@ -1,0 +1,3 @@
+id,title,kind,origin,rights,confidentiality,status,path,bytes,sha256
+SRC-001,Fictional Harbor Catalog,structured-data,created-for-demonstration,synthetic,public-demo,fixture,source_material/harbor_catalog.csv,913,5d07825266fcb8be37d36404c4f07c7b5d97ad36a6bdb327d5fe2427d3e26213
+SRC-002,Synthetic Method Note,method-note,created-for-demonstration,synthetic,public-demo,fixture,source_material/method_note.txt,526,ccf3e4124505e04ce8fa4521e37f7592c9272f3677313bbec1bb5441ee15af1a

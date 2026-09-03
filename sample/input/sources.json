@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "id": "SRC-001",
+      "title": "Fictional Harbor Catalog",
+      "kind": "structured-data",
+      "origin": "created-for-demonstration",
+      "rights": "synthetic",
+      "confidentiality": "public-demo",
+      "status": "fixture",
+      "path": "source_material/harbor_catalog.csv"
+    },
+    {
+      "id": "SRC-002",
+      "title": "Synthetic Method Note",
+      "kind": "method-note",
+      "origin": "created-for-demonstration",
+      "rights": "synthetic",
+      "confidentiality": "public-demo",
+      "status": "fixture",
+      "path": "source_material/method_note.txt"
+    }
+  ]
+}

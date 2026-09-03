@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A synthetic, traceable publishing QA demonstration with offline evidence checks.">
+  <title>Harbor Notes — Tracepress QA demonstration</title>
+  <style>
+    :root { color-scheme: light; --ink:#17211b; --muted:#53645a; --paper:#fbfaf5; --panel:#eef2e9; --line:#b9c4ba; --accent:#075f4b; --focus:#b54708; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--paper); color:var(--ink); font:1rem/1.65 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    a { color:var(--accent); text-underline-offset:.18em; }
+    a:focus-visible { outline:3px solid var(--focus); outline-offset:4px; border-radius:2px; }
+    .skip { position:absolute; left:.75rem; top:-5rem; background:var(--ink); color:white; padding:.65rem 1rem; z-index:3; }
+    .skip:focus { top:.75rem; }
+    header, main, footer { width:min(72rem, calc(100% - 2rem)); margin-inline:auto; }
+    header { padding:2.5rem 0 1.25rem; border-bottom:1px solid var(--line); }
+    .eyebrow { margin:0 0 .4rem; color:var(--accent); font-size:.78rem; font-weight:750; letter-spacing:.12em; text-transform:uppercase; }
+    nav { display:flex; flex-wrap:wrap; gap:.5rem 1rem; margin-top:1rem; }
+    main { display:grid; grid-template-columns:minmax(0, 1fr) minmax(15rem, .34fr); gap:clamp(2rem,5vw,5rem); padding-block:3rem; }
+    article { min-width:0; }
+    article > h1 { font:700 clamp(2.45rem,7vw,5.4rem)/.98 Georgia,serif; letter-spacing:-.045em; max-width:12ch; margin:.25rem 0 2.5rem; }
+    h2 { font:700 clamp(1.5rem,3vw,2.2rem)/1.15 Georgia,serif; margin:3rem 0 .8rem; }
+    h3 { margin-top:2rem; }
+    p, li { max-width:67ch; }
+    blockquote { margin:0 0 2.25rem; padding:.2rem 0 .2rem 1.2rem; border-left:4px solid var(--accent); color:var(--muted); font-size:1.1rem; }
+    .claim-ref { margin-left:.2rem; font-size:.68em; font-weight:750; }
+    aside { align-self:start; position:sticky; top:1rem; background:var(--panel); border:1px solid var(--line); border-radius:.35rem; padding:1.25rem; }
+    aside h2 { margin:0 0 .7rem; font:700 1.05rem/1.3 system-ui,sans-serif; }
+    aside p { margin:.45rem 0; font-size:.9rem; }
+    .trace { grid-column:1 / -1; border-top:1px solid var(--line); padding-top:2rem; }
+    .table-wrap { overflow-x:auto; border:1px solid var(--line); border-radius:.35rem; }
+    table { border-collapse:collapse; width:100%; min-width:52rem; background:white; }
+    caption { text-align:left; font-weight:700; padding:1rem; background:var(--panel); }
+    th, td { padding:.8rem; border-top:1px solid var(--line); text-align:left; vertical-align:top; }
+    thead th { border-top:0; background:#f5f6f1; }
+    footer { border-top:1px solid var(--line); padding:1.5rem 0 3rem; color:var(--muted); font-size:.9rem; }
+    @media (max-width: 48rem) { main { grid-template-columns:1fr; padding-block:2rem; } aside { position:static; } .trace { grid-column:1; } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header>
+    <p class="eyebrow">Tracepress QA · synthetic portfolio demonstration</p>
+    <nav aria-label="Publication sections"><a href="#demonstration-status">Demonstration status</a><a href="#method">Method</a><a href="#findings">Findings</a><a href="#limits-and-disclosure">Limits and disclosure</a></nav>
+  </header>
+  <main id="content">
+    <article aria-labelledby="harbor-notes"><h1 id="harbor-notes">Harbor Notes</h1>
+<blockquote><p>A miniature evidence-led publication built from an entirely fictional catalog.</p></blockquote>
+<h2 id="demonstration-status">Demonstration status</h2>
+<p>Harbor Notes is a portfolio demonstration, not a report about a real harbor, collection, organization, or field study. Every record and result is synthetic. The example uses a <a href="https://example.com/">reserved example link</a> so link behavior can be tested without treating a live page as evidence.</p>
+<h2 id="method">Method</h2>
+<p>The fictional pilot catalog contains twelve entries. <sup class="claim-ref"><a href="#trace-C-001" aria-label="View evidence for claim C-001">C-001</a></sup></p>
+<p>Every catalog entry has a declared review status. <sup class="claim-ref"><a href="#trace-C-002" aria-label="View evidence for claim C-002">C-002</a></sup></p>
+<p>The workflow separates source registration, claim registration, manuscript review, rendering, and release packaging. The demonstration validates declared link fixtures without making live network requests. <sup class="claim-ref"><a href="#trace-C-004" aria-label="View evidence for claim C-004">C-004</a></sup></p>
+<h2 id="findings">Findings</h2>
+<p>Six fictional entries are marked ready for editorial review. <sup class="claim-ref"><a href="#trace-C-003" aria-label="View evidence for claim C-003">C-003</a></sup></p>
+<ul><li>Each statement above resolves to a claim record.</li><li>Each claim record identifies evidence and a locator.</li><li>Executable rules reproduce the three catalog results.</li><li>Release outputs receive SHA-256 fingerprints.</li></ul>
+<h2 id="limits-and-disclosure">Limits and disclosure</h2>
+<p>Passing checks establish internal consistency within the demonstration fixtures; they do not establish external truth or production readiness. The renderer supports only a deliberate Markdown subset, and the link checker uses declared offline responses.</p>
+<p>This sample was created with AI-assisted coding under human direction and review. It includes no confidential material, company source code, internal prompt, manuscript, customer identity, proposal, correspondence, or operational analytics.</p></article>
+    <aside aria-labelledby="release-note-title">
+      <h2 id="release-note-title">Release note</h2>
+      <p><strong>Status:</strong> Demonstration</p>
+      <p><strong>Classification:</strong> public-synthetic</p>
+      <p><strong>Release:</strong> 0.1.0 · 2026-09-03</p>
+      <p>No confidential, client, partner, company, or proprietary material is included.</p>
+    </aside>
+    <section class="trace" aria-labelledby="traceability-title">
+      <h2 id="traceability-title">Claim traceability</h2>
+      <p>Each public claim links to local synthetic evidence. “Passed” means the declared fixture rule reproduced the expected result.</p>
+      <div class="table-wrap" tabindex="0" aria-label="Scrollable claim traceability table">
+        <table>
+          <caption>Claim-to-source register</caption>
+          <thead><tr><th scope="col">ID</th><th scope="col">Claim</th><th scope="col">Source</th><th scope="col">Locator</th><th scope="col">Check</th></tr></thead>
+          <tbody><tr id="trace-C-001"><th scope="row">C-001</th><td>The fictional pilot catalog contains twelve entries.</td><td>SRC-001: Fictional Harbor Catalog</td><td>data rows 1–12</td><td>Passed</td></tr><tr id="trace-C-002"><th scope="row">C-002</th><td>Every catalog entry has a declared review status.</td><td>SRC-001: Fictional Harbor Catalog</td><td>review_status column</td><td>Passed</td></tr><tr id="trace-C-003"><th scope="row">C-003</th><td>Six fictional entries are marked ready for editorial review.</td><td>SRC-001: Fictional Harbor Catalog</td><td>review_status = ready</td><td>Passed</td></tr><tr id="trace-C-004"><th scope="row">C-004</th><td>The demonstration validates declared link fixtures without making live network requests.</td><td>SRC-002: Synthetic Method Note</td><td>method rule 4</td><td>Passed</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Created with AI-assisted coding and synthetic content under human direction and review.</p>
+    <p>Generated by tracepress-qa/0.1.0. Offline fixtures only; no live URLs were requested.</p>
+  </footer>
+</body>
+</html>

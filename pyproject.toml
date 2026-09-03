@@ -1,0 +1,11 @@
+[project]
+name = "tracepress-qa"
+version = "0.1.0"
+description = "Offline-first technical publishing QA demonstration"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Ted Kang" }]
+dependencies = []
+
+[project.scripts]
+tracepress = "publishing_qa.cli:main"

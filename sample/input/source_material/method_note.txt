@@ -1,0 +1,13 @@
+HARBOR NOTES — SYNTHETIC METHOD NOTE
+
+This file was written solely for the Tracepress QA portfolio demonstration.
+It contains no observations, names, or measurements from the real world.
+
+Method rules
+1. Treat each CSV data row as one catalog entry.
+2. A review status is complete when the field is non-empty.
+3. Count "ready" exactly; do not infer readiness from the observation text.
+4. Validate web links against declared offline fixtures. Make no network request.
+
+Handling classification: public-demo
+Rights: synthetic

@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "policy": {
+    "offline_only": true,
+    "require_https": true
+  },
+  "fixtures": [
+    {
+      "url": "https://example.com/",
+      "status": 200,
+      "checked_as": "offline-fixture",
+      "note": "Reserved example domain; status is test data, not a live result."
+    }
+  ]
+}
